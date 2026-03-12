@@ -2,5 +2,15 @@ remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "air"
 title: "Vivienne's Website"
 
+author_profile: true
+author:
+  name: "Vivienne"
+  bio: "A lifelong learner with too many interests"
+  location: "Singapore"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/vivienne-tsui-3b2241231/"
+
 plugins:
   - jekyll-include-cache

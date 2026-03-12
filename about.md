@@ -3,6 +3,8 @@ layout: single
 title: "About Me"
 permalink: /about/
 toc: true
+toc_sticky: true
+author_profile: true
 ---
 
 ## About Me
