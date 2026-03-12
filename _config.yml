@@ -1,3 +1,5 @@
-theme: jekyll-theme-minimal
-title: Vivienne's website
-description: Welcome! This is a website documenting my learning progress and projects.
+theme: minima
+
+header_pages:
+    - index.md
+    - projects.md
