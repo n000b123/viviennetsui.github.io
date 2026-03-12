@@ -1,24 +1,21 @@
 ---
 ---
-@import "{{ site.theme }}";
+@import "minimal-mistakes";
 
-/* 1. Global Font Polish */
+/* Your overrides */
 body {
+  background-color: #f7f9fb;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  background-color: #f7f9fb; /* A very soft, modern light blue-gray */
 }
 
-/* 2. Turn the content area into a 'Card' */
 .page__inner-wrap, .archive__item {
   background: white;
   padding: 3rem;
-  border-radius: 16px; /* A bit more modern roundness */
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05); /* Soft shadow for depth */
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
   margin-top: 2rem;
 }
 
-/* 3. Link styling with a smooth underline animation */
 a {
   color: #2c3e50;
   text-decoration: none;
@@ -29,11 +26,6 @@ a {
 a:hover {
   background-color: #3498db;
   color: white;
-  padding: 0 4px; /* A tiny breathing room effect */
+  padding: 0 4px;
   border-radius: 4px;
-}
-
-/* 4. Fix sidebar text if it looks too small */
-.sidebar {
-  font-size: 0.95rem;
 }
