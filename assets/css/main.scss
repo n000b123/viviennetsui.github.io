@@ -1,21 +1,27 @@
 ---
 ---
+/* 1. Load the core theme */
 @import "minimal-mistakes";
 
-/* Your overrides */
+/* 2. Global Styling & Full-Width Setup */
 body {
-  background-color: #f7f9fb;
+  background-color: #f7f9fb; /* Soft, modern light gray */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
-.page__inner-wrap, .archive__item {
-  background: white;
-  padding: 3rem;
-  border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-  margin-top: 2rem;
+/* 3. Make the main wrapper use more space (Full-Width Effect) */
+.page__inner-wrap, 
+.initial-content {
+  max-width: 95% !important; /* Uses almost the full screen width */
+  margin: 0 auto;            /* Keeps it perfectly centered */
+  padding: 3rem;             /* Generous breathing room */
+  background: white;         /* Clean white card */
+  border-radius: 16px;       /* Modern rounded corners */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05); /* Floating shadow */
 }
 
+/* 4. Link Styling */
 a {
   color: #2c3e50;
   text-decoration: none;
@@ -28,4 +34,9 @@ a:hover {
   color: white;
   padding: 0 4px;
   border-radius: 4px;
+}
+
+/* 5. Clean Sidebar */
+.sidebar {
+  font-size: 0.95rem;
 }
