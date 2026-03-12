@@ -1,3 +1,6 @@
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "air"
 title: "Vivienne's Website"
+
+plugins:
+  - jekyll-include-cache
