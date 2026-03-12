@@ -1,12 +1,3 @@
-nav:
-  main:
-    - title: "Home"
-      url: /
-    - title: "About"
-      url: /about/
-    - title: "Projects"
-      url: /projects/
-
-# Theme specific settings
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "air"
+title: "Vivienne's Website"
