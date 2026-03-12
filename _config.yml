@@ -1,5 +1,12 @@
-theme: minima
+nav:
+  main:
+    - title: "Home"
+      url: /
+    - title: "About"
+      url: /about/
+    - title: "Projects"
+      url: /projects/
 
-header_pages:
-    - index.md
-    - projects.md
+# Theme specific settings
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air"
