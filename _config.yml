@@ -12,5 +12,9 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/vivienne-tsui-3b2241231/"
 
+sass:
+  style: compressed
+
 plugins:
   - jekyll-include-cache
+

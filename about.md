@@ -7,7 +7,7 @@ toc_sticky: true
 author_profile: true
 ---
 
-## About Me
+## My growth
 
 I'm currently a final year data science and economics student at NUS. 
 
